@@ -1,0 +1,485 @@
+[INFO] Connected to Unity environment with package version 2.1.0-exp.1 and communication version 1.5.0
+[INFO] Connected new brain: AnimalAI?team=0
+[WARNING] The environment contains multiple observations. You must define allow_multiple_obs=True to receive them all. Otherwise, only the first visual observation (or vector observation ifthere are no visual observations) will be provided in the observation.
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Logging to ./dqn_tensorboard/inserrunname/DQN_3
+/home/roma/.local/lib/python3.10/site-packages/gym/logger.py:34: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize("%s: %s" % ("WARN", msg % args), "yellow"))
+/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/buffers.py:219: UserWarning: This system does not have apparently enough memory to store the complete replay buffer 7.79GB > 1.95GB
+  warnings.warn(
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.984    |
+| time/               |          |
+|    episodes         | 4        |
+|    fps              | 119      |
+|    time_elapsed     | 13       |
+|    total timesteps  | 1668     |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.968    |
+| time/               |          |
+|    episodes         | 8        |
+|    fps              | 120      |
+|    time_elapsed     | 27       |
+|    total timesteps  | 3336     |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.952    |
+| time/               |          |
+|    episodes         | 12       |
+|    fps              | 120      |
+|    time_elapsed     | 41       |
+|    total timesteps  | 5004     |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.937    |
+| time/               |          |
+|    episodes         | 16       |
+|    fps              | 118      |
+|    time_elapsed     | 56       |
+|    total timesteps  | 6672     |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.921    |
+| time/               |          |
+|    episodes         | 20       |
+|    fps              | 118      |
+|    time_elapsed     | 70       |
+|    total timesteps  | 8340     |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.905    |
+| time/               |          |
+|    episodes         | 24       |
+|    fps              | 119      |
+|    time_elapsed     | 83       |
+|    total timesteps  | 10008    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.889    |
+| time/               |          |
+|    episodes         | 28       |
+|    fps              | 119      |
+|    time_elapsed     | 97       |
+|    total timesteps  | 11676    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.873    |
+| time/               |          |
+|    episodes         | 32       |
+|    fps              | 120      |
+|    time_elapsed     | 111      |
+|    total timesteps  | 13344    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.857    |
+| time/               |          |
+|    episodes         | 36       |
+|    fps              | 120      |
+|    time_elapsed     | 124      |
+|    total timesteps  | 15012    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.842    |
+| time/               |          |
+|    episodes         | 40       |
+|    fps              | 121      |
+|    time_elapsed     | 137      |
+|    total timesteps  | 16680    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.826    |
+| time/               |          |
+|    episodes         | 44       |
+|    fps              | 121      |
+|    time_elapsed     | 150      |
+|    total timesteps  | 18348    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.81     |
+| time/               |          |
+|    episodes         | 48       |
+|    fps              | 122      |
+|    time_elapsed     | 163      |
+|    total timesteps  | 20016    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.794    |
+| time/               |          |
+|    episodes         | 52       |
+|    fps              | 122      |
+|    time_elapsed     | 177      |
+|    total timesteps  | 21684    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.778    |
+| time/               |          |
+|    episodes         | 56       |
+|    fps              | 122      |
+|    time_elapsed     | 191      |
+|    total timesteps  | 23352    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.762    |
+| time/               |          |
+|    episodes         | 60       |
+|    fps              | 121      |
+|    time_elapsed     | 205      |
+|    total timesteps  | 25020    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.746    |
+| time/               |          |
+|    episodes         | 64       |
+|    fps              | 121      |
+|    time_elapsed     | 219      |
+|    total timesteps  | 26688    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.731    |
+| time/               |          |
+|    episodes         | 68       |
+|    fps              | 122      |
+|    time_elapsed     | 232      |
+|    total timesteps  | 28356    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.715    |
+| time/               |          |
+|    episodes         | 72       |
+|    fps              | 122      |
+|    time_elapsed     | 245      |
+|    total timesteps  | 30024    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.699    |
+| time/               |          |
+|    episodes         | 76       |
+|    fps              | 122      |
+|    time_elapsed     | 259      |
+|    total timesteps  | 31692    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.683    |
+| time/               |          |
+|    episodes         | 80       |
+|    fps              | 122      |
+|    time_elapsed     | 272      |
+|    total timesteps  | 33360    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.667    |
+| time/               |          |
+|    episodes         | 84       |
+|    fps              | 122      |
+|    time_elapsed     | 286      |
+|    total timesteps  | 35028    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.651    |
+| time/               |          |
+|    episodes         | 88       |
+|    fps              | 122      |
+|    time_elapsed     | 299      |
+|    total timesteps  | 36696    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.636    |
+| time/               |          |
+|    episodes         | 92       |
+|    fps              | 122      |
+|    time_elapsed     | 313      |
+|    total timesteps  | 38364    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.62     |
+| time/               |          |
+|    episodes         | 96       |
+|    fps              | 122      |
+|    time_elapsed     | 327      |
+|    total timesteps  | 40032    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.604    |
+| time/               |          |
+|    episodes         | 100      |
+|    fps              | 47       |
+|    time_elapsed     | 869      |
+|    total timesteps  | 41700    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.588    |
+| time/               |          |
+|    episodes         | 104      |
+|    fps              | 49       |
+|    time_elapsed     | 883      |
+|    total timesteps  | 43368    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.572    |
+| time/               |          |
+|    episodes         | 108      |
+|    fps              | 50       |
+|    time_elapsed     | 896      |
+|    total timesteps  | 45036    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.556    |
+| time/               |          |
+|    episodes         | 112      |
+|    fps              | 51       |
+|    time_elapsed     | 910      |
+|    total timesteps  | 46704    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.54     |
+| time/               |          |
+|    episodes         | 116      |
+|    fps              | 52       |
+|    time_elapsed     | 923      |
+|    total timesteps  | 48372    |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.525    |
+| time/               |          |
+|    episodes         | 120      |
+|    fps              | 53       |
+|    time_elapsed     | 938      |
+|    total timesteps  | 50040    |
+| train/              |          |
+|    learning_rate    | 0.0001   |
+|    loss             | 0.00203  |
+|    n_updates        | 9        |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.509    |
+| time/               |          |
+|    episodes         | 124      |
+|    fps              | 53       |
+|    time_elapsed     | 958      |
+|    total timesteps  | 51708    |
+| train/              |          |
+|    learning_rate    | 0.0001   |
+|    loss             | 1.89e-06 |
+|    n_updates        | 426      |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.493    |
+| time/               |          |
+|    episodes         | 128      |
+|    fps              | 54       |
+|    time_elapsed     | 978      |
+|    total timesteps  | 53376    |
+| train/              |          |
+|    learning_rate    | 0.0001   |
+|    loss             | 0.000127 |
+|    n_updates        | 843      |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.477    |
+| time/               |          |
+|    episodes         | 132      |
+|    fps              | 55       |
+|    time_elapsed     | 998      |
+|    total timesteps  | 55044    |
+| train/              |          |
+|    learning_rate    | 0.0001   |
+|    loss             | 3.06e-06 |
+|    n_updates        | 1260     |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.461    |
+| time/               |          |
+|    episodes         | 136      |
+|    fps              | 55       |
+|    time_elapsed     | 1019     |
+|    total timesteps  | 56712    |
+| train/              |          |
+|    learning_rate    | 0.0001   |
+|    loss             | 1.55e-06 |
+|    n_updates        | 1677     |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.445    |
+| time/               |          |
+|    episodes         | 140      |
+|    fps              | 56       |
+|    time_elapsed     | 1040     |
+|    total timesteps  | 58380    |
+| train/              |          |
+|    learning_rate    | 0.0001   |
+|    loss             | 8.86e-07 |
+|    n_updates        | 2094     |
+----------------------------------
+Traceback (most recent call last):
+  File "/home/roma/animal-ai/examples/gymwrapper.py", line 138, in <module>
+    train_agent_single_config(configuration_file=configuration_file)
+  File "/home/roma/animal-ai/examples/gymwrapper.py", line 122, in train_agent_single_config
+    model.learn(no_steps, reset_num_timesteps=reset_num_timesteps)
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/dqn/dqn.py", line 241, in learn
+    return super(DQN, self).learn(
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 352, in learn
+    rollout = self.collect_rollouts(
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 571, in collect_rollouts
+    new_obs, reward, done, infos = env.step(action)
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/vec_env/base_vec_env.py", line 162, in step
+    return self.step_wait()
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/vec_env/vec_transpose.py", line 83, in step_wait
+    observations, rewards, dones, infos = self.venv.step_wait()
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/vec_env/dummy_vec_env.py", line 43, in step_wait
+    obs, self.buf_rews[env_idx], self.buf_dones[env_idx], self.buf_infos[env_idx] = self.envs[env_idx].step(
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/monitor.py", line 90, in step
+    observation, reward, done, info = self.env.step(action)
+  File "/home/roma/.local/lib/python3.10/site-packages/gym_unity/envs/__init__.py", line 201, in step
+    self._env.step()
+  File "/home/roma/.local/lib/python3.10/site-packages/mlagents_envs/timers.py", line 305, in wrapped
+    return func(*args, **kwargs)
+  File "/home/roma/.local/lib/python3.10/site-packages/mlagents_envs/environment.py", line 348, in step
+    outputs = self._communicator.exchange(step_input, self._poll_process)
+  File "/home/roma/.local/lib/python3.10/site-packages/mlagents_envs/rpc_communicator.py", line 142, in exchange
+    self.poll_for_timeout(poll_callback)
+  File "/home/roma/.local/lib/python3.10/site-packages/mlagents_envs/rpc_communicator.py", line 111, in poll_for_timeout
+    poll_callback()
+  File "/home/roma/.local/lib/python3.10/site-packages/mlagents_envs/environment.py", line 418, in _poll_process
+    raise UnityEnvironmentException(exc_msg)
+mlagents_envs.exception.UnityEnvironmentException: Environment shut down with return code -9 (SIGKILL).
+Traceback (most recent call last):
+  File "/home/roma/animal-ai/examples/gymwrapper.py", line 138, in <module>
+    train_agent_single_config(configuration_file=configuration_file)
+  File "/home/roma/animal-ai/examples/gymwrapper.py", line 122, in train_agent_single_config
+    model.learn(no_steps, reset_num_timesteps=reset_num_timesteps)
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/dqn/dqn.py", line 241, in learn
+    return super(DQN, self).learn(
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 352, in learn
+    rollout = self.collect_rollouts(
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 571, in collect_rollouts
+    new_obs, reward, done, infos = env.step(action)
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/vec_env/base_vec_env.py", line 162, in step
+    return self.step_wait()
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/vec_env/vec_transpose.py", line 83, in step_wait
+    observations, rewards, dones, infos = self.venv.step_wait()
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/vec_env/dummy_vec_env.py", line 43, in step_wait
+    obs, self.buf_rews[env_idx], self.buf_dones[env_idx], self.buf_infos[env_idx] = self.envs[env_idx].step(
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/monitor.py", line 90, in step
+    observation, reward, done, info = self.env.step(action)
+  File "/home/roma/.local/lib/python3.10/site-packages/gym_unity/envs/__init__.py", line 201, in step
+    self._env.step()
+  File "/home/roma/.local/lib/python3.10/site-packages/mlagents_envs/timers.py", line 305, in wrapped
+    return func(*args, **kwargs)
+  File "/home/roma/.local/lib/python3.10/site-packages/mlagents_envs/environment.py", line 348, in step
+    outputs = self._communicator.exchange(step_input, self._poll_process)
+  File "/home/roma/.local/lib/python3.10/site-packages/mlagents_envs/rpc_communicator.py", line 142, in exchange
+    self.poll_for_timeout(poll_callback)
+  File "/home/roma/.local/lib/python3.10/site-packages/mlagents_envs/rpc_communicator.py", line 111, in poll_for_timeout
+    poll_callback()
+  File "/home/roma/.local/lib/python3.10/site-packages/mlagents_envs/environment.py", line 418, in _poll_process
+    raise UnityEnvironmentException(exc_msg)
+mlagents_envs.exception.UnityEnvironmentException: Environment shut down with return code -9 (SIGKILL).

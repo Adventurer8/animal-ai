@@ -1,0 +1,33 @@
+
+[INFO] Connected to Unity environment with package version 2.1.0-exp.1 and communication version 1.5.0
+Traceback (most recent call last):
+  File "/home/roma/animal-ai/examples/gymwrapper.py", line 143, in <module>
+    train_agent_single_config(configuration_file=configuration_file)
+  File "/home/roma/animal-ai/examples/gymwrapper.py", line 92, in train_agent_single_config
+    aai_env = AnimalAIEnvironment(
+  File "/home/roma/animal-ai/animalai/animalai/envs/environment.py", line 98, in __init__
+    self.reset(arenas_configurations)
+  File "/home/roma/animal-ai/animalai/animalai/envs/environment.py", line 161, in reset
+    f = open(arenas_configurations, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/roma/animal-ai/configs/competition/01-02-02'
+Traceback (most recent call last):
+  File "/home/roma/animal-ai/examples/gymwrapper.py", line 143, in <module>
+    train_agent_single_config(configuration_file=configuration_file)
+  File "/home/roma/animal-ai/examples/gymwrapper.py", line 92, in train_agent_single_config
+    aai_env = AnimalAIEnvironment(
+  File "/home/roma/animal-ai/animalai/animalai/envs/environment.py", line 98, in __init__
+    self.reset(arenas_configurations)
+  File "/home/roma/animal-ai/animalai/animalai/envs/environment.py", line 161, in reset
+    f = open(arenas_configurations, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/roma/animal-ai/configs/competition/01-02-02'
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1537, in _shutdown
+    atexit_call()
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 31, in _python_exit
+    t.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

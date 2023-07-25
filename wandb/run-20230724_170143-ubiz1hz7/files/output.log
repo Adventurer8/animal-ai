@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/roma/animal-ai/agents/dqn.py", line 166, in <module>
+    rb = ReplayBuffer(
+  File "/home/roma/anaconda3/lib/python3.9/site-packages/stable_baselines3/common/buffers.py", line 184, in __init__
+    super().__init__(buffer_size, observation_space, action_space, device, n_envs=n_envs)
+  File "/home/roma/anaconda3/lib/python3.9/site-packages/stable_baselines3/common/buffers.py", line 50, in __init__
+    self.obs_shape = get_obs_shape(observation_space)
+  File "/home/roma/anaconda3/lib/python3.9/site-packages/stable_baselines3/common/preprocessing.py", line 166, in get_obs_shape
+    raise NotImplementedError(f"{observation_space} observation space is not supported")
+NotImplementedError: Box([-4.8000002e+00 -3.4028235e+38 -4.1887903e-01 -3.4028235e+38], [4.8000002e+00 3.4028235e+38 4.1887903e-01 3.4028235e+38], (4,), float32) observation space is not supported

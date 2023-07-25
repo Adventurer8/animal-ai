@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/roma/animal-ai/agents/dqn.py", line 156, in <module>
+    envs = gym.vector.SyncVectorEnv(
+  File "/home/roma/anaconda3/lib/python3.9/site-packages/gym/vector/sync_vector_env.py", line 52, in __init__
+    self.envs = [env_fn() for env_fn in env_fns]
+  File "/home/roma/anaconda3/lib/python3.9/site-packages/gym/vector/sync_vector_env.py", line 52, in <listcomp>
+    self.envs = [env_fn() for env_fn in env_fns]
+  File "/home/roma/animal-ai/agents/dqn.py", line 87, in thunk
+    env = gym.make(env_id)
+  File "/home/roma/anaconda3/lib/python3.9/site-packages/gym/envs/registration.py", line 569, in make
+    _check_version_exists(ns, name, version)
+  File "/home/roma/anaconda3/lib/python3.9/site-packages/gym/envs/registration.py", line 219, in _check_version_exists
+    _check_name_exists(ns, name)
+  File "/home/roma/anaconda3/lib/python3.9/site-packages/gym/envs/registration.py", line 187, in _check_name_exists
+    _check_namespace_exists(ns)
+  File "/home/roma/anaconda3/lib/python3.9/site-packages/gym/envs/registration.py", line 182, in _check_namespace_exists
+    raise error.NamespaceNotFound(f"Namespace {ns} not found. {suggestion_msg}")
+gym.error.NamespaceNotFound: Namespace env not found. Have you installed the proper package for env?

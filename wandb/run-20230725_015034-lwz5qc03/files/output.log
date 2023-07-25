@@ -1,0 +1,133 @@
+[INFO] Connected to Unity environment with package version 2.1.0-exp.1 and communication version 1.5.0
+[INFO] Connected new brain: AnimalAI?team=0
+[WARNING] The environment contains multiple observations. You must define allow_multiple_obs=True to receive them all. Otherwise, only the first visual observation (or vector observation ifthere are no visual observations) will be provided in the observation.
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+Logging to ./dqn_tensorboard/inserrunname/DQN_4
+/home/roma/.local/lib/python3.10/site-packages/gym/logger.py:34: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize("%s: %s" % ("WARN", msg % args), "yellow"))
+/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/buffers.py:219: UserWarning: This system does not have apparently enough memory to store the complete replay buffer 7.79GB > 1.69GB
+  warnings.warn(
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 118      |
+|    ep_rew_mean      | 0.467    |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 4        |
+|    fps              | 128      |
+|    time_elapsed     | 3        |
+|    total timesteps  | 473      |
+----------------------------------
+Logging to ./dqn_tensorboard/inserrunname/DQN_4
+/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/save_util.py:276: UserWarning: Path 'results/inserrunname' does not exist. Will create it.
+  warnings.warn(f"Path '{path.parent}' does not exist. Will create it.")
+Logging to ./dqn_tensorboard/inserrunname/DQN_4
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 260      |
+|    ep_rew_mean      | -0.124   |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 8        |
+|    fps              | 3220     |
+|    time_elapsed     | 0        |
+|    total timesteps  | 2082     |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 248      |
+|    ep_rew_mean      | -0.0111  |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 12       |
+|    fps              | 404      |
+|    time_elapsed     | 7        |
+|    total timesteps  | 2975     |
+----------------------------------
+Logging to ./dqn_tensorboard/inserrunname/DQN_4
+Logging to ./dqn_tensorboard/inserrunname/DQN_4
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 265      |
+|    ep_rew_mean      | -0.134   |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 16       |
+|    fps              | 2318     |
+|    time_elapsed     | 1        |
+|    total timesteps  | 4233     |
+----------------------------------
+Logging to ./dqn_tensorboard/inserrunname/DQN_4
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 256      |
+|    ep_rew_mean      | -0.114   |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 20       |
+|    fps              | 4858     |
+|    time_elapsed     | 1        |
+|    total timesteps  | 5120     |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 249      |
+|    ep_rew_mean      | -0.0546  |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 24       |
+|    fps              | 768      |
+|    time_elapsed     | 7        |
+|    total timesteps  | 5969     |
+----------------------------------
+Logging to ./dqn_tensorboard/inserrunname/DQN_4
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 248      |
+|    ep_rew_mean      | -0.0593  |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 28       |
+|    fps              | 945      |
+|    time_elapsed     | 7        |
+|    total timesteps  | 6949     |
+----------------------------------
+Logging to ./dqn_tensorboard/inserrunname/DQN_4
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 237      |
+|    ep_rew_mean      | -0.00464 |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 32       |
+|    fps              | 1612     |
+|    time_elapsed     | 4        |
+|    total timesteps  | 7569     |
+----------------------------------
+Logging to ./dqn_tensorboard/inserrunname/DQN_4
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 231      |
+|    ep_rew_mean      | 0.0302   |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 36       |
+|    fps              | 3219     |
+|    time_elapsed     | 2        |
+|    total timesteps  | 8305     |
+----------------------------------
+Logging to ./dqn_tensorboard/inserrunname/DQN_4
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 230      |
+|    ep_rew_mean      | 0.0234   |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 40       |
+|    fps              | 5826     |
+|    time_elapsed     | 1        |
+|    total timesteps  | 9202     |
+----------------------------------

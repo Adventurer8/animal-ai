@@ -1,0 +1,121 @@
+[INFO] Connected to Unity environment with package version 2.1.0-exp.1 and communication version 1.5.0
+[INFO] Connected new brain: AnimalAI?team=0
+[WARNING] The environment contains multiple observations. You must define allow_multiple_obs=True to receive them all. Otherwise, only the first visual observation (or vector observation ifthere are no visual observations) will be provided in the observation.
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Wrapping the env in a VecTransposeImage.
+/home/roma/.local/lib/python3.10/site-packages/gym/logger.py:34: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize("%s: %s" % ("WARN", msg % args), "yellow"))
+/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/buffers.py:219: UserWarning: This system does not have apparently enough memory to store the complete replay buffer 7.79GB > 1.17GB
+  warnings.warn(
+Logging to ./dqn_tensorboard/inserrunname/DQN_7
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 417      |
+|    ep_rew_mean      | -0.999   |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 4        |
+|    fps              | 132      |
+|    time_elapsed     | 12       |
+|    total timesteps  | 1668     |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 263      |
+|    ep_rew_mean      | -0.256   |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 8        |
+|    fps              | 131      |
+|    time_elapsed     | 15       |
+|    total timesteps  | 2107     |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 221      |
+|    ep_rew_mean      | -0.0291  |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 12       |
+|    fps              | 131      |
+|    time_elapsed     | 20       |
+|    total timesteps  | 2649     |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 250      |
+|    ep_rew_mean      | -0.161   |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 16       |
+|    fps              | 127      |
+|    time_elapsed     | 31       |
+|    total timesteps  | 3994     |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 243      |
+|    ep_rew_mean      | -0.132   |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 20       |
+|    fps              | 126      |
+|    time_elapsed     | 38       |
+|    total timesteps  | 4857     |
+----------------------------------
+----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 222      |
+|    ep_rew_mean      | -0.0315  |
+|    exploration rate | 0.05     |
+| time/               |          |
+|    episodes         | 24       |
+|    fps              | 126      |
+|    time_elapsed     | 42       |
+|    total timesteps  | 5322     |
+----------------------------------
+Traceback (most recent call last):
+  File "/home/roma/animal-ai/examples/gymwrapper.py", line 146, in <module>
+    train_agent_single_config(configuration_file=configuration_file)
+  File "/home/roma/animal-ai/examples/gymwrapper.py", line 126, in train_agent_single_config
+    model.learn(no_steps, reset_num_timesteps=reset_num_timesteps)
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/dqn/dqn.py", line 241, in learn
+    return super(DQN, self).learn(
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 352, in learn
+    rollout = self.collect_rollouts(
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 589, in collect_rollouts
+    self._store_transition(replay_buffer, buffer_action, new_obs, reward, done, infos)
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 498, in _store_transition
+    replay_buffer.add(
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/buffers.py", line 243, in add
+    self.dones[self.pos] = np.array(done).copy()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/roma/animal-ai/examples/gymwrapper.py", line 146, in <module>
+    train_agent_single_config(configuration_file=configuration_file)
+  File "/home/roma/animal-ai/examples/gymwrapper.py", line 126, in train_agent_single_config
+    model.learn(no_steps, reset_num_timesteps=reset_num_timesteps)
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/dqn/dqn.py", line 241, in learn
+    return super(DQN, self).learn(
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 352, in learn
+    rollout = self.collect_rollouts(
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 589, in collect_rollouts
+    self._store_transition(replay_buffer, buffer_action, new_obs, reward, done, infos)
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 498, in _store_transition
+    replay_buffer.add(
+  File "/home/roma/.local/lib/python3.10/site-packages/stable_baselines3/common/buffers.py", line 243, in add
+    self.dones[self.pos] = np.array(done).copy()
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1537, in _shutdown
+    atexit_call()
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 31, in _python_exit
+    t.join()
+  File "/usr/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

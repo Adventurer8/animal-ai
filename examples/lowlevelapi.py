@@ -11,11 +11,11 @@ def run_agent_single_config(configuration_file: str) -> None:
     See https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Python-API.md for details.
     For demo purposes uses a simple braitenberg vehicle-inspired agent that solves most tasks from category 1.
     """
-    env_path = "../env/AnimalAI"
+    env_path = "/home/roma/animal-ai/env/AAI_v3.0.1_build_linux_090422.x86_64"
     
     configuration = configuration_file
 
-    totalRays = 9
+    totalRays = 7
     env = AnimalAIEnvironment(
         file_name=env_path,
         arenas_configurations=configuration,
@@ -63,7 +63,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         configuration_file = sys.argv[1]
     else:
-        competition_folder = "../configs/competition/"
+        competition_folder = "/home/roma/animal-ai/configs/competition/"
         configuration_files = os.listdir(competition_folder)
         configuration_random = random.randint(0, len(configuration_files))
         configuration_file = (
